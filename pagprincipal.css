@@ -1,0 +1,194 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+  
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+  
+.nav-item:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+  
+.nav-item img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 4px;
+}
+  
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 60px;
+    
+    background-image: url(imgpagprin/fondoinicio.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+header div {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.imgproductos img {
+    display: flex;
+    align-items: right;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+div, section {
+    align-items: center;
+}
+
+section h1 {
+    display: flex;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0 0 20px;
+    text-align: center;
+    align-items: center;
+}
+
+section h2 {
+    display: flex;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+section, button {  
+    text-align: center;
+    align-items: center;
+}
+
+.botonproductos {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color:royalblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+}
+
+button:hover {
+    background-color:rgb(24, 73, 219);
+}
+
+.algunosproductos {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    background-color: rgb(85, 88, 87);
+}
+
+.algunosproductos h1 {
+    text-align: center;
+    align-items: end;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.algunosproductos img {
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(19, 18, 18);
+}
+
+.footer h1 {
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.footer button {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color:royalblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+}
+
+.contacto {
+    background-color: rgb(19, 18, 18);
+}
+
+.contacto p {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.contacto a {
+    color: rgb(21, 71, 236);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer div {
+    display: flex;
+}
